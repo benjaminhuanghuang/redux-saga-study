@@ -1,0 +1,33 @@
+{
+  "name": "redux-saga-study",
+  "version": "1.0.0",
+  "description": "- redux-sage beginner tutorial     - redux-saga/docs/introduction/BeginnerTutorial.md     - https://github.com/redux-saga/redux-saga-beginner-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node sagas.spec.js | tap-spec",
+    "start": "budo main.js:build.js --dir ./ --verbose  --live -- -t babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminhuanghuang/redux-saga-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminhuanghuang/redux-saga-study/issues"
+  },
+  "homepage": "https://github.com/benjaminhuanghuang/redux-saga-study#readme",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "budo": "^11.2.2",
+    "tap-spec": "^4.1.2",
+    "tape": "^4.9.0"
+  }
+}
